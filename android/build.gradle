@@ -1,5 +1,6 @@
 buildscript {
     repositories {
+        google()
         jcenter()
     }
 
@@ -23,7 +24,10 @@ android {
 }
 
 repositories {
+    google()
+    jcenter()
     mavenCentral()
+
 }
 
 dependencies {
